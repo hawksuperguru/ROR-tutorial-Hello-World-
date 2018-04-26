@@ -1,2 +1,17 @@
-<h1>Say#hello</h1>
-<p>Find me in app/views/say/hello.html.erb</p>
+<html>
+<head>
+    <title>Hello From Rails!</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Ruby on Rails!</h1>
+        <p>
+            It is now <%= @time %>
+        </p>
+        <p>
+            The Time says
+            <%= link_to 'Good Bye', say_goodbye_path %>
+        </p>
+    </div>
+</body>
+</html>
